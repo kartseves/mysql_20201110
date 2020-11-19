@@ -1,0 +1,17 @@
+Для таблицы users:
+	- создать отдельную таблицу contact_info_types (id, name);
+	- создать отдельную таблицу contact_info(s) (id, user_id, contact_info_type_id, metadata);
+	- удалить колонки phone, email.
+
+Для таблицы profiles:
+	- создать отдельную таблицу genders (id, name); колонку gender заменить на gender_id;
+	- создать отдельную таблицу citys (id, name); колонку gender заменить на city_id;
+	- создать отдельную таблицу countrys (id, name); колонку gender заменить на country_id.
+
+Для таблицы friendship:
+	- создать колонку refused_at.
+
+Для таблицы messages:
+	- создать колонку is_read.
+
+
